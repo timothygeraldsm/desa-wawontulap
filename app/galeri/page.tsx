@@ -224,18 +224,6 @@ export default function GaleriPage() {
           </div>
         </div>
       )}
-
-      {/* Upload Info */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Bagikan Momen Anda</h2>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Punya foto atau video menarik tentang Desa Wawontulap? Bagikan dengan kami melalui WhatsApp untuk
-            ditampilkan di galeri
-          </p>
-          <Button className="bg-green-600 hover:bg-green-700 text-lg px-8 py-3">Kirim via WhatsApp</Button>
-        </div>
-      </section>
     </div>
   )
 }

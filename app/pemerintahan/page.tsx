@@ -86,57 +86,6 @@ export default function PemerintahanPage() {
         </div>
       </section>
 
-      {/* Village Officials */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Perangkat Desa</h2>
-            <p className="text-xl text-gray-600">Struktur pemerintahan Desa Wawontulap</p>
-            <div className="mt-6 p-4 bg-blue-50 rounded-lg">
-              <p className="text-blue-800">
-                <strong>Catatan:</strong> Data lengkap perangkat desa sedang dalam proses pemutakhiran. Untuk informasi
-                terkini, silakan hubungi kantor desa langsung.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="shadow-lg">
-              <CardHeader className="text-center">
-                <User className="h-16 w-16 text-blue-600 mx-auto mb-4" />
-                <CardTitle className="text-xl text-gray-900">Kepala Desa</CardTitle>
-                <p className="text-blue-600 font-semibold">Pimpinan Desa Wawontulap</p>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-gray-700">Memimpin dan mengkoordinasikan seluruh kegiatan pemerintahan desa</p>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-lg">
-              <CardHeader className="text-center">
-                <User className="h-16 w-16 text-green-600 mx-auto mb-4" />
-                <CardTitle className="text-xl text-gray-900">Sekretaris Desa</CardTitle>
-                <p className="text-green-600 font-semibold">Administrasi Pemerintahan</p>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-gray-700">Mengelola administrasi dan dokumentasi pemerintahan desa</p>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-lg">
-              <CardHeader className="text-center">
-                <User className="h-16 w-16 text-purple-600 mx-auto mb-4" />
-                <CardTitle className="text-xl text-gray-900">Perangkat Desa</CardTitle>
-                <p className="text-purple-600 font-semibold">Tim Pelayanan</p>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-gray-700">Melayani kebutuhan administrasi dan pembangunan masyarakat</p>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Village Government Structure */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

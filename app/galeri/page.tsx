@@ -24,6 +24,8 @@ export default function GaleriPage() {
     { id: 13, src: "/foto/kelapa 5.jpeg", title: "Foto 13" },
     { id: 14, src: "/foto/nilam 1", title: "Foto 14" },
     { id: 15, src: "/foto/nilam 2", title: "Foto 15" },
+    { id: 16, src: "/foto/foto 1", title: "Foto 16" },
+    { id: 17, src: "/foto/foto 2", title: "Foto 17" },
   ]
 
   const openModal = (index: number) => {

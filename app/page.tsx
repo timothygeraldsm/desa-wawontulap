@@ -36,7 +36,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center justify-center">
         <div className="absolute inset-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/foto/sunset.jpeg"
             alt="Pantai Wawontulap"
             fill
             className="object-cover"

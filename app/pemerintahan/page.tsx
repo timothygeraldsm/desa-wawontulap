@@ -322,21 +322,14 @@ export default function PemerintahanPage() {
                 </div>
               </div>
             </div>
-            <div className="relative w-full overflow-hidden rounded-lg shadow-xl" style={{ paddingBottom: '56.25%', height: 0 }}>
+            <div className="w-[600px] h-[500px] rounded-lg overflow-hidden shadow-xl mx-auto">
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55077.6632986094!2d124.53264042680658!3d1.3116446524900747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32876191af6c5195%3A0x8e119c1ef606cd0f!2sWawontulap%2C%20Tatapaan%2C%20South%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1753627381832!5m2!1sen!2sid"
-    allowFullScreen=""
+    allowFullScreen
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
-    title="Lokasi Kantor Desa Wawontulap"
-    style={{
-      border: 0,
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      width: '100%',
-      height: '100%',
-    }}
+    title="Lokasi Kantor Desa"
+    className="w-full h-full border-0"
   ></iframe>
 </div>
 

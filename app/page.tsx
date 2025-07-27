@@ -16,17 +16,17 @@ export default function HomePage() {
     {
       title: "Wawontulap Beach Resort",
       description: "Resort pantai dengan pemandangan laut yang menakjubkan",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/foto/pariwisata.jpeg",
     },
     {
       title: "Pulau-pulau Eksotis",
       description: "Jelajahi Pulau Tatapaan, Sepatu, Burung, dan Tikus",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/foto/pulau 3.jpeg",
     },
     {
       title: "Budaya Minahasa",
       description: "Warisan budaya yang kaya dan tradisi yang terjaga",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/foto/mangrove.jpeg",
     },
   ]
 
@@ -110,7 +110,7 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/foto/pariwisata.jpeg"
                 alt="Pemandangan Desa Wawontulap"
                 width={600}
                 height={500}

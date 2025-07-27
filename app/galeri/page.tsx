@@ -9,19 +9,19 @@ export default function GaleriPage() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null)
 
   const images = [
-    { id: 1, src: "/foto/pulau 1.jpeg", title: "Pantai Wawontulap" },
-    { id: 2, src: "/foto/pulau 2.jpeg", title: "Wawontulap Beach Resort" },
-    { id: 3, src: "/foto/mangrove.jpeg", title: "Hutan Mangrove" },
-    { id: 4, src: "/foto/pesisir.jpeg", title: "Perkebunan Kakao" },
-    { id: 5, src: "/foto/sunset.jpeg", title: "Acara Budaya Minahasa" },
-    { id: 6, src: "/foto/pariwisata.jpeg", title: "Pulau Tatapaan" },
-    { id: 7, src: "/foto/gotong.jpeg", title: "Sunset di Pantai" },
-    { id: 8, src: "/foto/gotong 2.jpeg", title: "Perahu Nelayan" },
-    { id: 9, src: "/foto/kelapa 1.jpeg", title: "Kebun Nilam" },
-    { id: 10, src: "/foto/kelapa 2.jpeg", title: "Aktivitas Snorkeling" },
-    { id: 11, src: "/foto/kelapa 3.jpeg", title: "Festival Desa" },
-    { id: 12, src: "/foto/kelapa 4.jpeg", title: "Kebun Kelapa" },
-    { id: 12, src: "/foto/kelapa 5.jpeg", title: "Kebun Kelapa" },
+    { id: 1, src: "/foto/pulau 1.jpeg", title: "Foto 1" },
+    { id: 2, src: "/foto/pulau 2.jpeg", title: "Foto 2" },
+    { id: 3, src: "/foto/mangrove.jpeg", title: "Foto 3" },
+    { id: 4, src: "/foto/pesisir.jpeg", title: "Foto 4" },
+    { id: 5, src: "/foto/sunset.jpeg", title: "Foto 5" },
+    { id: 6, src: "/foto/pariwisata.jpeg", title: "Foto 6" },
+    { id: 7, src: "/foto/gotong.jpeg", title: "Foto 7" },
+    { id: 8, src: "/foto/gotong 2.jpeg", title: "Foto 8" },
+    { id: 9, src: "/foto/kelapa 1.jpeg", title: "Foto 9" },
+    { id: 10, src: "/foto/kelapa 2.jpeg", title: "Foto 10" },
+    { id: 11, src: "/foto/kelapa 3.jpeg", title: "Foto 11" },
+    { id: 12, src: "/foto/kelapa 4.jpeg", title: "Foto 12" },
+    { id: 13, src: "/foto/kelapa 5.jpeg", title: "Foto 13" },
   ]
 
   const openModal = (index: number) => {

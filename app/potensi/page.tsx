@@ -10,7 +10,7 @@ export default function PotensiPage() {
       description: "Perkebunan coklat berkualitas tinggi yang menjadi komoditas unggulan desa",
       area: "Lahan Produktif",
       production: "Komoditas Utama",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/foto/kelapa 3.jpeg",
     },
     {
       icon: Leaf,
@@ -18,7 +18,7 @@ export default function PotensiPage() {
       description: "Tanaman nilam untuk industri parfum dan aromaterapi dengan kualitas premium",
       area: "Lahan Khusus",
       production: "Ekspor Quality",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/foto/nilam 1.jpeg",
     },
     {
       icon: TreePine,

@@ -93,7 +93,7 @@ export default function GeografiPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/foto/sunset.jpeg"
                 alt="Peta lokasi Desa Wawontulap"
                 width={600}
                 height={500}
@@ -105,22 +105,35 @@ export default function GeografiPage() {
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Peta Interaktif</h2>
-            <p className="text-xl text-gray-600">Lokasi Desa Wawontulap dan sekitarnya</p>
-          </div>
+<section className="py-16 bg-white">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-gray-900 mb-4">Peta Interaktif</h2>
+      <p className="text-xl text-gray-600">Lokasi Desa Wawontulap dan sekitarnya</p>
+    </div>
 
-          <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="h-16 w-16 text-gray-400 mx-auto mb-4" />
-              <p className="text-gray-600 text-lg">Peta Google Maps akan ditampilkan di sini</p>
-              <p className="text-gray-500 text-sm mt-2">Embed: https://maps.google.com/wawontulap-tatapaan</p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className="relative w-full" style={{ paddingBottom: '56.25%', height: 0 }}>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55077.6632986094!2d124.53264042680658!3d1.3116446524900747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32876191af6c5195%3A0x8e119c1ef606cd0f!2sWawontulap%2C%20Tatapaan%2C%20South%20Minahasa%20Regency%2C%20North%20Sulawesi!5e0!3m2!1sen!2sid!4v1753627381832!5m2!1sen!2sid"
+        width="600"
+        height="450"
+        style={{
+          border: 0,
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+        }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Peta Desa Wawontulap"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
 
       {/* Surrounding Islands */}
       <section className="py-16 bg-gray-50">

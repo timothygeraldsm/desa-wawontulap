@@ -71,7 +71,7 @@ export default function TentangPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/foto/pesisir.jpeg"
                 alt="Pemandangan udara Desa Wawontulap"
                 width={600}
                 height={500}

@@ -177,7 +177,7 @@ export default function PemerintahanPage() {
             <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 hover:shadow-lg transition-shadow">
               <div className="space-y-3">
                 <h3 className="text-lg font-bold text-gray-900">Kepala Urusan Tata Usaha dan Umum</h3>
-                <p className="text-gray-900 font-medium uppercase tracking-wide">RISANTI DAENGRIBOKO</p>
+                <p className="text-gray-900 font-medium uppercase tracking-wide">Sufatmi Tapola</p>
                 <span className="inline-block bg-green-100 text-green-800 text-xs font-medium px-3 py-1 rounded-full">
                   Aktif
                 </span>

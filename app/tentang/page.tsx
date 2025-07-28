@@ -95,16 +95,11 @@ export default function TentangPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="shadow-lg">
               <CardHeader>
-                <CardTitle className="text-2xl text-blue-600">Warisan Budaya Minahasa</CardTitle>
+                <CardTitle className="text-2xl text-blue-600">Budaya dan kesenian di Desa Wawontulap</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-700 mb-4">
-                  Desa Wawontulap merupakan bagian integral dari budaya Minahasa yang kaya. Masyarakat masih
-                  mempertahankan tradisi seperti upacara adat, tarian tradisional, dan sistem gotong royong yang kuat.
-                </p>
-                <p className="text-gray-700">
-                  Bahasa Minahasa masih digunakan dalam kehidupan sehari-hari, terutama oleh generasi tua, sementara
-                  generasi muda mulai mempelajari kembali warisan leluhur.
+                  Desa Wawontulap juga kaya akan tradisi budaya yang beragam dan memiliki nilai historis serta sosial yang tinggi. Keberagaman etnis yang terdiri dari pendatang berbagai suku, yang memberikan pengaruh kuat terhadap bentuk ekspresi seni dan budaya yang berkembang di desa ini. Kesenian tradisional seperti masamper, yaitu bentuk nyanyian berbalas yang biasa dilakukan secara berkelompok, dan pato-pato, yakni tarian khas yang dilakukan dengan gerakan kaki dan tangan secara serentak, menjadi warisan budaya yang dahulu sangat akrab dengan kehidupan sosial masyarakat. Lagu dero, yang biasanya mengiringi tarian kebersamaan pada malam hari, juga menjadi bagian tak terpisahkan dari pesta rakyat maupun hajatan besar di desa.
                 </p>
               </CardContent>
             </Card>
